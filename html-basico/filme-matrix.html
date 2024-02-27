@@ -25,9 +25,9 @@
                         /* color muda cor da letra*/
                         
                         /* width largura */
-                        width: 1000px;
+                        width: 1200px;
                         margin: 20px auto;
-                        border: 1px solid #078c03;
+                        border: 4px solid #078c03;
                         /* border bordas 1px solid cor da borda */
                         /* arredondar os cantos da caixa */
                         border-radius: 10px;
@@ -38,6 +38,53 @@
                             /* define margin na parte superio(margin-top) */
                             margin-top:20px;
                         }
+                        th{
+                            background: #034001;
+                            /* cor de fundo */
+                            text-align: left;
+                            /* alinhamento do texto
+                            left-esquerda
+                            right-direita
+                            center-centralidade
+                            justify-justificado */
+                        }
+                        th,td{
+                            border: 1px solid #078c03;
+                            /* nao esquecer de colocar solid 
+                            colocando borda  */
+                        }
+                        table{
+                            border-collapse: collapse;
+                            /* seleciona o modelo da borda */
+                        }
+                        p{
+                            /* justifica o texto */
+                            text-align:justify;
+                        }
+                        iframe{
+                            width: 100%;
+                            /* ajustar o video  */
+                            height: 500px;
+                        }
+                        a{
+                            color: #078c03;
+                            text-decoration: none;
+                        }
+                        /* css do link ao passar o mouse */
+                        a:hover{
+                            color:#034001;
+                        border-bottom: 1px solid #034001;
+;                       }
+                        /* fundo da pagina */
+                        html{
+                            background:url(../img/matrix-fundo.jpg) no-repeat center center fixed; 
+                            /* fixed a imagem fica parada
+                            center a imagem comçecar expandir da tela */
+                            /* url imagem  */
+                            background-size: cover;
+                            /* cover sempre vai completar a propriedade da tela  */
+                        }
+
     </style>
     
 </head>
@@ -45,7 +92,7 @@
     <H1>Matrix</H1>
     <h5>Lançamento:  1999</h5>
 
-    <table border=1> 
+    <table> 
         <tr>
             <th>Categoria</th>
             <th>Duração</th>
@@ -85,10 +132,10 @@
             <LI>Hugo Weaving (Agente Smith)</LI>
         </ul>
         <h3>Trailer</h3>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/2KnZac176Hs?si=jYCkpjHoEXzAL-NP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe  src="https://www.youtube.com/embed/2KnZac176Hs?si=jYCkpjHoEXzAL-NP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
         <a href="https://www.adorocinema.com/filmes/filme-19776/"target="_blank">
-            <P>fonte: AdoroCinema</P>
+            fonte: AdoroCinema
         </a>
 
 
